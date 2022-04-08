@@ -204,7 +204,7 @@ outreg2 using "${tabla}/DIF_RD_main.xls", addtext(Cuantil,"OLS Dif RD", Bandwidt
 
 *QUANTILE EFFECTS
 foreach q in 25 50 75 90 {
-qreg ranking eligible_post eligible post sisben sisben_eligible sisben_post sisben_eligible_post  ${controls} if abs(sisben)<bw_dif_cersum , q(`q') vce(r)  
+qreg ranking eligible_post eligible post sisben sisben_eligible sisben_post sisben_eligible_post  ${controls} if abs(sisben)<bw_dif_cersum , q(`q') vce(r) iter(1000) 
 outreg2 using "${tabla}/DIF_RD_main.xls", addtext(Cuantil,"`q' Dif RD", Bandwidth, `bw_dif_cersum') ctitle("CERSUM") less(1) keep(eligible_post eligible) nocons append
 }
 
