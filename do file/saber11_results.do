@@ -119,6 +119,10 @@ global controls_orig area_ciudades area_urbano icfes_padre_nivel1 icfes_padre_ni
 icfes_padre_nivel3 icfes_madre_nivel1 icfes_madre_nivel2 icfes_madre_nivel3 ///
 edad sexo_sisben departamento_cod_1-departamento_cod_32 saber_orig_col
 
+***** I suggest adding notes here as to what these other sets of control variables are and the first set was chosen as optmal.
+***** Furthermore, I suggest labeling the variables 'saber_rk_col', 'saber_std_col', and 'saber_orig_col' in Stata or writing up
+***** a codebook to enhance reproducibility of not only the results but also the thinking process.
+
 st 
 
 *Run until here. Then, each figure or table can be run independetly
