@@ -8,10 +8,10 @@ cls
 /* Danilo Aristizabal
 */
 * set a global for the database
-global base "C:\Users\DANILO\Dropbox (Uniandes)\Trabajos\Rachid\pilo_paga_paper\data\"
-global tabla "C:\Users\DANILO\Dropbox (Uniandes)\Trabajos\Rachid\pilo_paga_paper\tables\"
-global figura "C:\Users\DANILO\Dropbox (Uniandes)\Trabajos\Rachid\pilo_paga_paper\figures\"
-global regresiones "C:\Users\DANILO\Dropbox (Uniandes)\Trabajos\Rachid\pilo_paga_paper\regressions\"
+global base "C:\Users\Seung Yong Sung\Dropbox\1. Academics\I. Spring 2022\EC 270B Dev\PS\DataReplication\Authors Replication Files\data\"
+global tabla "C:\Users\Seung Yong Sung\Dropbox\1. Academics\I. Spring 2022\EC 270B Dev\PS\DataReplication\Authors Replication Files\tables\"
+global figura "C:\Users\Seung Yong Sung\Dropbox\1. Academics\I. Spring 2022\EC 270B Dev\PS\DataReplication\Authors Replication Files\figures\"
+global regresiones "C:\Users\Seung Yong Sung\Dropbox\1. Academics\I. Spring 2022\EC 270B Dev\PS\DataReplication\Authors Replication Files\regressions\"
 
 use "${base}\originals\SPP_ready.dta", clear
 
