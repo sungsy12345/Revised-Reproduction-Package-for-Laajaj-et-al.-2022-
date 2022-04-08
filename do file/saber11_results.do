@@ -79,7 +79,9 @@ rdrobust ranking sisben if post == 1, kernel(uniform) bwselect(msesum)
 scalar bw_post_msesum = e(h_l) 
 *dif: avg between pre and post:
 scalar bw_dif_msesum = (bw_pre_msesum +bw_post_msesum)/2 
- 
+
+***** I suggest adding notes here as to what these other choices of bandwidth are and why CERSUM was deemed optimal.
+
 */
 
 scalar bw_2013_14_cersum =   3.874886
